@@ -1,0 +1,9 @@
+Los iteradores nos permiten recorrer estructuras de datos de forma secuencial.
+Comenzaremos con listas.
+
+Referencias:
+
+    https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html
+    https://www.baeldung.com/java-iterator
+
+Como ejercicio: crear una lista con al menos 10 coordenadas, mostrarlas utilizando un iterador y eliminar (utilizando el método remove() del Iterator) aquellas coordenadas que estén a una distancia del origen menor que 1.

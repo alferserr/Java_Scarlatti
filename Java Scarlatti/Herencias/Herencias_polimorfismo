@@ -1,0 +1,35 @@
+   HERENCIAS:
+
+La clase Coche debe guardar la siguiente información de cada coche de un concesionario: número de bastidor (conjunto de números y letras), marca, modelo, número de kilómetros y si es nuevo o no.
+
+Cuando se creen objetos de la clase Coche, se le proporcionará obligatoriamente el número de bastidor, la marca y el modelo. No se puede crear esta clase si no pasamos estos datos al crear el objeto.
+
+El número de bastidor no puede ser accedido directamente (ni para leer ni para modificar) por otras clases. Tendrás que proporcionar para las clases externas un método que te devuelva el número de bastidor.
+Tampoco queremos que la marca y el modelo puedan ser modificados directamente: codifica métodos que te permitan dar valores u obtener los valores de la marca y modelo.
+
+Queremos llevar por cuenta cuántos objetos Coche se crean en el concesionario. Añade los atributos y el código necesario para contabilizarlo.
+
+También tendremos un método denominado imprimeDatosCoche() que imprimirá por pantalla el valor de los atributos del coche. Se pide:
+
+a.       Codifica la clase Coche con los atributos y métodos necesarios. Debes elegir los tipos de datos adecuados para cada atributo y para los parámetros y valores devueltos por cada método, así como los modificadores de acceso (public o private) de los atributos y métodos.
+
+b.       Codifica la clase PruebaCoche en la que crearás dos objetos de la clase Coche, darás valores a todos los atributos e imprimirás la información de cada coche con el método imprimeDatosCoche(). Finalmente, imprimirás cuántos coches hay (objetos que se han creado) en el concesionario.
+
+------------------------------------------------------------
+
+Algunos enlaces útiles que hemos visto o veremos en clase, más referencias para consultar:
+
+    Herencia: https://www.w3schools.com/java/java_inheritance.asp
+    Polimorfismo: https://www.w3schools.com/java/java_polymorphism.asp
+    Clases y métodos abstractos: https://www.w3schools.com/java/java_abstract.asp
+    Paquetes en Java (packages): https://www.w3schools.com/java/java_packages.asp
+
+    Tutorial de Java de Oracle. Herencia: https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html
+    Control de acceso: https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+
+    Tipos de herencia en Java: https://www.javatpoint.com/inheritance-in-java
+    Acceso a métodos y atributos de la superclase con super: https://www.javatpoint.com/super-keyword
+
+    Interfaces:
+    https://www.w3schools.com/java/java_interface.asp
+    https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html

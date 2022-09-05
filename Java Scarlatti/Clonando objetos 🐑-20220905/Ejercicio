@@ -1,0 +1,1 @@
+Ejercicio propuesto: modificar el método clone() y el constructor de la clase Numeros para que se creen copias de los arrays y que cada objeto tenga su propio array.

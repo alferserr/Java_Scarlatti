@@ -1,0 +1,301 @@
+En esta página puedes realizar ejercicios de repaso de sintaxis de Java:
+https://www.w3schools.com/java/java_exercises.asp
+
+        EJERCICIOS INICIALES JAVA:
+
+    Realiza un programa que imprima por pantalla tu nombre.
+
+    Modifica el programa anterior para añadir una variable entera que contenga tu edad. Imprime tu nombre y la variable que contenga tu edad con un mensaje como éste:
+    "Me llamo Ana y tengo 27 años"
+
+    Codifica un programa en el que tengas dos variables enteras, con los valores que elijas. El programa te dirá (utilizando sentencias if-else) qué número es mayor o si son iguales.
+
+    Programa en el que declaras una variable de tipo int, le asignas un valor y el programa te informa de si es un número par o impar y positivo o negativo.
+
+    Programa que te imprime los números del 1 al diez utilizando la estructura while.
+
+    Ídem anterior con estructura do-while.
+
+    Ídem anterior, con estructura for.
+
+    Realiza un programa que sume los 20 primeros números naturales (1, 2, ...20)  y muestre el resultado por pantalla.
+
+    Realiza un programa que sume los primeros diez números naturales impares.
+
+    ORDENA3
+    Escribe un programa que pida tres números al usuario y los escriba ordenados de menor a mayor.
+
+    ___________________________
+
+    EDADES.
+    Haz un programa que pida un número al usuario (una edad de una persona) y le informe de si es menor de 18 años,
+    mayor o igual a 65, o tiene entre una edad entre 18 años y menor de 65 años.
+
+    LEE NÚMEROS.
+    Codifica un programa que pida números al usuario y termine cuando el usuario introduzca cero.
+    El programa, antes de terminar mostrará cuántos números ha leído y su valor medio.
+
+    MAYOR 10
+    Haz un programa que pida 10 números al usuario y calcule cuál es el mayor valor que ha introducido el usuario.
+
+    LOTO
+    Escribe un programa que genere 6 números aleatorios entre 1 y 49.
+
+    Realiza un programa que resuelva ecuaciones de segundo grado. Inicializa los valores de a, b y c. Si el número sobre el que hay que calcular la raíz es negativo, informa al usuario de que la ecuación no tiene solución real.
+
+    Programa que genere los primeros 10 números de la serie de Fibonacci.
+
+
+    Pedir 10 números. Mostrar la media de los números positivos, la media de los números negativos y la cantidad de ceros leídos.
+
+    Pedir 10 números, y mostrar al final si se ha introducido alguno negativo.
+
+    Realiza un programa que lea números enteros hasta que el usuario introduzca un número menor que el anterior.
+
+    Realiza un programa que calcule la hipotenusa de un triángulo rectángulo de lados 7 y 15 e imprima el resultado.
+
+---------------------------------------------------------------------
+
+            BUCLES ANIDADOS:
+
+TABLERO_AJEDREZ
+Realiza un programa que escriba por pantalla las coordenadas de un tablero de ajedrez.
+
+A1 B1 C1....H1
+
+A2 B2..........H2
+
+..
+
+A8 B8 .........H8
+
+Nota: utiliza bucles for anidados e investiga el tipo char para la primera coordenada.
+
+Variante: ¿puedes imprimir el tablero desde el punto de vista de las blancas? Fila A8 - H8 la primera... Fila A1 - H1 la última.
+
+SOLUCION: https://pastebin.com/ChZX8c9D
+
+DIAS_SEMANA
+
+Realiza un programa que genere un número aleatorio entre 1 y 7 e imprima el día de la semana correspondiente a dicho número (1 -> lunes, 2 -> martes... 7-> domingo).
+
+Referencias:
+
+https://www.w3schools.com/java/java_ref_math.asp 
+https://www.w3schools.com/java/java_conditions.asp
+
+
+ SUMA_NÚMEROS_NATURALES_MÚLTIPLOS
+ Haz un programa que sume los números múltiplos de 3 y 5 que hay del 1 al 100.
+
+ SUMA_NÚMEROS_NATURALES_MÚLTIPLOS_2
+ Haz un programa que sume los primeros 20 números múltiplos de 3 y 5 a partir del 1.
+
+TRIÁNGULO NÚMEROS
+
+Codifica un programa que genere un "triángulo" como el de la figura.
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
+
+Variante: genera aleatoriamente el número de filas (entre 1 y 9).
+
+FACTORIAL
+
+Codifica un programa en Java que calcule el factorial de un número n:  n*(n-1)*...2*1
+Ejemplo: el factorial de 4 (4!) será:  4*3*2*1
+
+DIVISORES PROPIOS.
+Se denomina factor o divisor propio de un número entero n, a otro número también entero que es divisor de n, pero diferente de n. Por ejemplo, los divisores propios de 28 son 1, 2, 4, 7 y 14.
+
+Realiza un programa en Java que pida números al usuario e imprima los divisores propios de cada número. El programa terminará cuando el usuario introduzca un cero. 
+
+Referencia: https://www.w3schools.com/java/java_user_input.asp
+-------------------------------------------------------------------------
+           GEOMETRÍA:
+
+/* 
+  EJERCICIO:
+  Realiza un programa en Java que muestre un menú por pantalla como el siguiente:
+  
+  ******* ADVANCED GEOMETRY V.0.1 *********
+  1. Calcular Longitud de la Circunferencia.
+  2. Calcular Área del Círculo.
+  3. Calcular Volumen del Cilindro.
+  4. Calcular Área Rectángulo.
+  5. Calcular Volumen de un Hexaedro.
+  6. Calcular Área de un Polígono regular.
+  0. Terminar
+  
+  Elige opción: 
+  
+  ________________
+  
+  Cuando el usuario elija una opción se le pedirán los datos necesarios
+  para la operación de cálculo y a continuación se le mostrarán los resultados:
+  
+  Ejemplo:
+  ________________
+  El área del círculo es 35.5.
+  
+  Pulse una tecla para continuar 
+  _________________
+  
+  A continuación se le mostrará de nuevo el menú.
+  Cuando el usuario pulse 0, el programa terminará su ejecución.
+  
+  
+  IMPORTANTE: Debes crear métodos para atender cada opción y solicitar datos,
+  pero los cálculos (fórmulas geométricas) se llevarán a cabo en métodos que 
+  devuelvan los valores calculados.
+
+
+
+
+*/
+--------------------------------------------
+
+        ENCAPSULAR Y FOR ANIDADOS
+
+SOLUCION:
+
+public class Entero {
+   // atributo
+   private int num;  
+   
+   // constructores
+   public Entero(int n) {
+	   num = n;
+   }
+   
+   public Entero() {
+	   num = 0;   
+   }
+   
+   // métodos
+   boolean esPar() {
+	  boolean resul = false;
+	  if (num % 2 == 0) {
+		 resul = true;
+	  }
+	  return resul;
+    }
+	
+	// más métodos...
+
+}
+
+EJERCICIO 1.
+ Diseñar una clase denominada Entero que almacenará un valor entero.
+ Esta clase contará con dos constructores: uno que recibe un int y otro vacío  que recibe
+ un String (el String debe contener una secuencia de caracteres que sea un valor entero).
+ En este segundo constructor debes pasar la secuencia de caracteres a entero utilizando
+ los métodos charAt() y length() del String. (esta parte la realizaremos más adelante).
+ 
+ El valor entero almacenado en esta clase puede ser accedido por otras clases.
+ La clase Entero contará con otros métodos:
+ - esPrimo: informa de si el número es primo o no.
+ - esPar.
+ - esImpar.
+ - esPerfecto: nos dice si la suma de sus divisores es igual al propio número.
+     Refencia sobre números perfectos.
+
+ - duplicar: dobla el valor del entero almacenado.
+ - suma: recibe como parámetro otro objeto de la clase Entero y suma el contenido de
+      ambos, almacenando el resultado en el objeto cuyo método suma hemos llamado.
+      
+ 
+ Debes diseñar y codificar los métodos anteriores.
+ La clase Entero no tiene método main.
+ 
+ A continuación crea la clase PruebaEntero en fichero aparte y en el main de esta
+ clase instancia (crea) dos objetos enteros, utilizando los dos constructores, y
+ prueba todos los métodos anteriores.
+ 
+ 
+ EJERCICIO 2.
+ Codifica un método denominado arbolXmas que produzca figuras como la siguiente:
+ 
+    *
+   ***
+  *****
+ *******
+ 
+ En el dibujo anterior el número que le pasamos arbolXmas fue 4 (número de filas).
+ Si lo llamamos con valor igual a 2:
+  *
+ ***
+ 
+Diseña y codifica el método dentro de una clase llamada Xmas.
+--------------------------------------------------------
+
+        
+        DISEÑO DE MÉTODOS:
+
+Para realizar en clase.
+Codifica dentro de un fichero (clase MethodDesign)  la declaración (primera línea) de los siguientes métodos (deben ser públicos y estáticos).
+
+1.  sumaTres: recibe tres números float y devuelve su suma.
+2.  printWarning: recibe un número de aviso e imprime un mensaje por consola.
+3.  getWarning: recibe un número de aviso y devuelve un String con el mensaje asociado
+4.  hipotenusa: recibe el valor de los catetos de un triángulo rectángulo (pueden contener decimales) y devuelve el valor de la hipotenusa.
+5.  maximo: recibe un array de enteros y devuelve el mayor valor almacenado
+6.  mediaIntervalo: te permite calcular la media en un intervalo (rango) de números enteros.
+7.  doblaArray: recibe un array de enteros o de double (sobrecargar) y dobla el valor de cada elemento de ese array.
+8.  copiaArray: recibe un array de enteros y devuelve una copia de dicho array (nuevo objeto).
+
+-------------------------------------------------------------
+
+                DNI:
+
+Realizar un programa que calcule la letra del NIF:
+
+
+   El procedimiento empleado para el cálculo de la letra del NIF consiste en
+
+   hallar el módulo (o resto) de dividir el DNI por 23.
+
+   El número resultante (comprendido entre 0 y 22) tiene una letra asignada.
+
+   La secuencia no es correlativa:
+
+
+   T R W A G M Y F P D X B N J Z S Q V H L C K E
+
+   
+
+   El programa preguntará números de DNI al usuario y mostrará el DNI seguido de   la letra que le corresponda.
+
+   El programa termina cuando el usuario introduzca un cero.
+
+ ------------------------------------------------------------------
+
+                toString:
+
+https://www.discoduroderoer.es/funcion-tostring-para-clases-en-java/
+
+---------------------------------------------------------
+
+            EJERCICIO CAJA CENTRO COMERCIAL:
+
+ Realiza un programa que pida datos al operador de una caja de una tienda: número de unidades y precio por unidad, hasta que el usuario introduzca 0 unidades.
+
+El programa imprimirá por pantalla un recibo con las unidades, precios, importe de cada artículo e importe total.
+
+El ticket tendrá los resultados alineados por columnas.
+
+El máximo número de artículos por compra será de 20.
+
+Una referencia útil para imprimir con formato:
+https://www.baeldung.com/java-printstream-printf
+
+---------------------------------------------------------------
+
+ 
+

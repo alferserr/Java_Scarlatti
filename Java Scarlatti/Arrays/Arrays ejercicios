@@ -1,0 +1,22 @@
+ ARRAYS:
+
+ Realizar un programa que rellene un array con los números del 1 al 100 (todos), sin repetirse y colocándolos de forma aleatoria.
+
+El array tendrá por tanto longitud una igual a 100.
+
+Piensa cómo puede ser el algoritmo antes de comenzar a codificar el programa.
+Explica en tu la cabecera de tu programa cómo es el algoritmo elegido y cómo te aseguras que no se repiten los número
+-----------------------------------------------------------------------------------------------------------------------------
+
+ Haz un programa que rellene un array de 1000 números enteros con números aleatorios en el rango 1-10000.  Crea una copia del array, ordénalo de menor a mayor y busca al menos diez números enteros en dicho array.
+
+¿Complicado? Bueno... hemos visto cómo copiar arrays, ordenarlos y recorrerlos para hacer búsquedas. Pero podemos hacerlo también, de forma más rápida y eficiente, utilizando la clase:
+
+java.util.Arrays   (clase Arrays en el paquete java.util)
+
+Referencias
+
+    Arrays en el API de Java
+    https://www.geeksforgeeks.org/array-class-in-java/
+
+Realiza el programa (clase PruebaUtilArrays) con los métodos extra que necesites, aparte del main, y súbelo...
